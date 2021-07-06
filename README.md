@@ -6,7 +6,7 @@ install composer
 
 cd /var/www/html
 
-https://github.com/ivan-drachov/small-project.git
+git clone https://github.com/ivan-drachov/small-project.git
 
 cd small-project
 
