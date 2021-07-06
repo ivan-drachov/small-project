@@ -38,7 +38,14 @@
 
 <div class="container">
     <h1>@yield('title')</h1>
+    @if(session('danger'))
+        <div class="alert alert-danger">{{session('danger')}}</div>
+    @endif
+    @if(session('success'))
+        <div class="alert alert-success">{{session('success')}}</div>
+    @endif
     <main>
+
         @yield('content')
 
     </main>
